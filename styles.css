@@ -21,8 +21,8 @@ body {
 }
 
 #startButton {
-    padding: 100% 100%;
-    font-size: 100%;
+    padding: 20% 20%;
+    font-size: 300%;
     cursor: pointer;
     border: none;
     background-color: #000000;
