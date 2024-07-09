@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton {
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #00f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
