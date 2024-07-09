@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-#overlay {
+#overlay, #content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,24 @@ body {
 
 #startButton {
     padding: 20px 40px;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: #4682b4;
+}
+
+#rickrollGif {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 footer {
