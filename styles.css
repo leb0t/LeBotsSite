@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -21,11 +21,11 @@ body {
 }
 
 #startButton {
-    padding: 20px 40px;
-    font-size: 24px;
+    padding: 100% 100%;
+    font-size: 200%;
     cursor: pointer;
     border: none;
-    background-color: #1e90ff;
+    background-color: #000000;
     color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -33,7 +33,7 @@ body {
 }
 
 #startButton:hover {
-    background-color: #4682b4;
+    background-color: #000000;
 }
 
 #content {
@@ -63,7 +63,7 @@ p {
 
 footer {
     position: absolute;
-    bottom: 20px;
+    bottom: 10%;
     width: 100%;
     text-align: center;
 }
